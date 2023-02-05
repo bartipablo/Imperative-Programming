@@ -76,7 +76,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="E:/Projekty/Imperative programming/imperative-programming/01-vectors/main.c">
+			<Option target="01_vectors"/>
+		</Unit>
 		<Unit filename="E:/Projekty/Imperative programming/imperative-programming/01-vectors/vec.c">
+			<Option target="01_vectors"/>
+		</Unit>
+		<Unit filename="E:/Projekty/Imperative programming/imperative-programming/01-vectors/vec.h">
 			<Option target="01_vectors"/>
 		</Unit>
 		<Unit filename="E:/Projekty/Imperative programming/imperative-programming/01-vectors/CMakeLists.txt">

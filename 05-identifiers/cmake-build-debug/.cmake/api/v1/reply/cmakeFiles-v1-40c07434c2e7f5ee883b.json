@@ -7,11 +7,6 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "C:/Program Files/JetBrains/CLion 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/CMakeMinGWFindMake.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
 			"path" : "C:/Program Files/JetBrains/CLion 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/CMakeDetermineSystem.cmake"
 		},
 		{
@@ -290,21 +285,6 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "C:/Program Files/JetBrains/CLion 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/CMakeFindCodeBlocks.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/JetBrains/CLion 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/JetBrains/CLion 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/ProcessorCount.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
 			"path" : "C:/Program Files/JetBrains/CLion 2022.1.2/bin/cmake/win/share/cmake-3.22/Modules/CMakeCInformation.cmake"
 		},
 		{
@@ -439,8 +419,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "E:/Projekty/Imperative programming/imperative-programming/01-vectors/cmake-build-debug",
-		"source" : "E:/Projekty/Imperative programming/imperative-programming/01-vectors"
+		"build" : "E:/Projekty/Imperative programming/imperative-programming/05-identifiers/cmake-build-debug",
+		"source" : "E:/Projekty/Imperative programming/imperative-programming/05-identifiers"
 	},
 	"version" : 
 	{
