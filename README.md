@@ -7,5 +7,5 @@ Simple operations on vectors, such as addition, multiplication by a scalar, scal
 Generating permutations <br />
 [Lab 2 (in polish)](https://github.com/bartipablo/imperative-programming/blob/main/02-permutation/problem/problem%202.pdf)
 ## 3.data structures
-implementation: Stack, FIFO with clients, Circular buffer with clients
+implementation: Stack, FIFO with clients, Circular buffer with clients <br />
 [Lab 3 (in polish)](https://github.com/bartipablo/imperative-programming/blob/main/03-data_structures/problem/problem%203.pdf)
