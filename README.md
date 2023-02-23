@@ -12,3 +12,6 @@ implementation: Stack, FIFO with clients, Circular buffer with clients <br />
 ## 4. string
 wc implementation, characters count, digrams count, comments count <br />
 [Lab 4 (in polish)](https://github.com/bartipablo/imperative-programming/blob/main/04-string/problem/problem%204.pdf)
+## 5. identifiers
+counting unique identifiers in C code <br />
+[Lab 5 (in polish)](https://github.com/bartipablo/imperative-programming/blob/main/05-identifiers/problem/problem%205.pdf)
