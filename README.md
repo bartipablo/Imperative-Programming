@@ -7,11 +7,14 @@ Simple operations on vectors, such as addition, multiplication by a scalar, scal
 Generating permutations <br />
 [Lab 2 (in polish)](https://github.com/bartipablo/imperative-programming/blob/main/02-permutation/problem/problem%202.pdf)
 ## 3. data structures
-implementation: Stack, FIFO with clients, Circular buffer with clients <br />
+Implementation: Stack, FIFO with clients, Circular buffer with clients <br />
 [Lab 3 (in polish)](https://github.com/bartipablo/imperative-programming/blob/main/03-data_structures/problem/problem%203.pdf)
 ## 4. string
 wc implementation, characters count, digrams count, comments count <br />
 [Lab 4 (in polish)](https://github.com/bartipablo/imperative-programming/blob/main/04-string/problem/problem%204.pdf)
 ## 5. identifiers
-counting unique identifiers in C code <br />
+Counting unique identifiers in C code <br />
 [Lab 5 (in polish)](https://github.com/bartipablo/imperative-programming/blob/main/05-identifiers/problem/problem%205.pdf)
+## 6. matrix
+Matrix multiplication, calculating the determinant of matrix, solving a system of linear equations, inverse matrix <br />
+[Lab 6 (in polish)](https://github.com/bartipablo/imperative-programming/blob/main/06-matrix/problem/problem%206.pdf)
