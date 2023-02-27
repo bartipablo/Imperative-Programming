@@ -20,4 +20,4 @@ Matrix multiplication, calculating the determinant of matrix, solving a system o
 [Lab 6 (in polish)](https://github.com/bartipablo/imperative-programming/blob/main/06-matrix/problem/problem%206.pdf)
 ## 7. integral
 Calculation of integrals 1D, 2D, 3D <br />
-[Lab 6 (in polish)](https://github.com/bartipablo/imperative-programming/blob/main/07-integral/problem/int.pdf)
+[Lab 7 (in polish)](https://github.com/bartipablo/imperative-programming/blob/main/07-integral/problem/int.pdf)
