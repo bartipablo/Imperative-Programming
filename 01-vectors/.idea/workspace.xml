@@ -17,10 +17,7 @@
     <list default="true" id="8bd09933-41e4-4aa3-9e00-0fe6c53e6427" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04-string/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../04-string/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05-identifiers/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../05-identifiers/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05-identifiers/ids.c" beforeDir="false" afterPath="$PROJECT_DIR$/../05-identifiers/ids.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05-identifiers/problem.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02-permutation/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../02-permutation/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +83,9 @@
       <workItem from="1676783365816" duration="721000" />
       <workItem from="1676919882325" duration="1022000" />
       <workItem from="1677140340438" duration="100000" />
+      <workItem from="1677421421179" duration="1245000" />
+      <workItem from="1677423567870" duration="241000" />
+      <workItem from="1677427269236" duration="13000" />
     </task>
     <servers />
   </component>
