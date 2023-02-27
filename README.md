@@ -16,5 +16,5 @@ wc implementation, characters count, digrams count, comments count <br />
 Counting unique identifiers in C code <br />
 [Lab 5 (in polish)](https://github.com/bartipablo/imperative-programming/blob/main/05-identifiers/problem/problem%205.pdf)
 ## 6. matrix
-Matrix multiplication, calculating the determinant of matrix, solving a system of linear equations, inverse matrix
+Matrix multiplication, calculating the determinant of matrix, solving a system of linear equations, inverse matrix <br />
 [Lab 6 (in polish)](https://github.com/bartipablo/imperative-programming/blob/main/06-matrix/problem/problem%206.pdf)
