@@ -1,3 +1,0 @@
-E:/Projekty/Imperative programming/imperative-programming/05-identifiers/cmake-build-debug/CMakeFiles/05_identifiers.dir
-E:/Projekty/Imperative programming/imperative-programming/05-identifiers/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/Projekty/Imperative programming/imperative-programming/05-identifiers/cmake-build-debug/CMakeFiles/rebuild_cache.dir
