@@ -1,4 +1,4 @@
-#include "E:\biblioteki\c++\minunit\minunit\minunit.h"
+#include "minunit.h"
 #include "matrixproduct.h"
 #include "gausssimplified.h"
 #include "gauss.h"
