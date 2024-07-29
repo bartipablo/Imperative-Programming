@@ -1,4 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2022.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DGTEST_ROOT=E:\biblioteki\c++\google test\googletest\googletest" -G "CodeBlocks - MinGW Makefiles" -S "E:\Projekty\Imperative programming\imperative-programming\01-vectors" -B "E:\Projekty\Imperative programming\imperative-programming\01-vectors\cmake-build-debug"
--- Configuring done
--- Generating done
--- Build files have been written to: E:/Projekty/Imperative programming/imperative-programming/01-vectors/cmake-build-debug

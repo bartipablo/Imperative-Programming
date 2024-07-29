@@ -1,5 +1,5 @@
-#ifndef MY_HEADER_H
-#define MY_HEADER_H
+#ifndef VEC_H
+#define VEC_H
 
 int range(double array[], double start, double stop, double step);
 
