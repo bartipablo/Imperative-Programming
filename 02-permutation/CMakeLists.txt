@@ -4,4 +4,4 @@ project(02_permutation C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(02_permutation
-        perm.c)
+        main.c perm.c)

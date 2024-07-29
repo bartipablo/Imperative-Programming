@@ -1,3 +1,0 @@
-E:/Projekty/Imperative programming/imperative-programming/02-permutation/cmake-build-debug/CMakeFiles/02_permutation.dir
-E:/Projekty/Imperative programming/imperative-programming/02-permutation/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/Projekty/Imperative programming/imperative-programming/02-permutation/cmake-build-debug/CMakeFiles/rebuild_cache.dir
