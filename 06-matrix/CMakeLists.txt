@@ -3,4 +3,4 @@ project(06_matrix C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(06_matrix main.c)
+add_executable(06_matrix main.c gauss.c gausssimplified.c generalfunction.c inversematrix.c matrixproduct.c)
