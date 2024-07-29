@@ -9,8 +9,8 @@
 #define OVERFLOW1 -3
 
 //STACK--------------------------------------------
-double stack[STACK_SIZE];
-int top = 0;
+static double stack[STACK_SIZE];
+static int top = 0;
 
 int stack_push(double x) {
     if (top == STACK_SIZE) {
@@ -44,8 +44,8 @@ void reset_stack(void) {
 //FIFO queue with shifts---------------------------
 #define QUEUE_SIZE 10
 
-int queue[QUEUE_SIZE];
-int in = 0, curr_nr = 0;
+static int queue[QUEUE_SIZE];
+static int in = 0, curr_nr = 0;
 
 
 void queue_push(int in_nr) {
@@ -86,8 +86,8 @@ void queue_state(void) {
 //Queue-with-cyclic-buffer-------------------------
 #define CBUFF_SIZE 10
 
-int cbuff[CBUFF_SIZE];
-int out = 0, len = 0;
+static int cbuff[CBUFF_SIZE];
+static int out = 0, len = 0;
 
 
 void cbuff_push(int cli_nr) {
