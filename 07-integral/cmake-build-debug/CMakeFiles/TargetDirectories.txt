@@ -1,3 +1,0 @@
-E:/Projekty/Imperative programming/imperative-programming/07-integral/cmake-build-debug/CMakeFiles/07_integral.dir
-E:/Projekty/Imperative programming/imperative-programming/07-integral/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/Projekty/Imperative programming/imperative-programming/07-integral/cmake-build-debug/CMakeFiles/rebuild_cache.dir

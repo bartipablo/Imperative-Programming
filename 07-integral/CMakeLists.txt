@@ -3,4 +3,4 @@ project(07_integral C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(07_integral main.c)
+add_executable(07_integral main.c function.c function-pointer.h integral.c)
