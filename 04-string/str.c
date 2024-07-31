@@ -15,6 +15,7 @@
 
 int count[MAX_DIGRAMS] = {0};
 
+
 // function to be used as comparator to qsort (compares counters and thes sorts
 // alphabetically when equal)
 int cmp (const void *a, const void *b) {
@@ -23,6 +24,7 @@ int cmp (const void *a, const void *b) {
 	if (count[va] == count[vb]) return va - vb; // sort alphabetically if counts equal
 	return count[vb] - count[va];
 }
+
 
 // function to be used as comparator to qsort for diagrams (compares counters and
 // these sorts alphabetically when equal)
@@ -35,6 +37,7 @@ int cmp_di (const void *a, const void *b) {
 	if (count[va] == count[vb]) return va / MAX_CHARS - vb / MAX_CHARS;
 	return count[vb] - count[va];
 }
+
 
 // count number of lines (nl), number of words (nw) and number of characters
 // (nc) in the text read from stdin
@@ -59,6 +62,7 @@ void wc(int *nl, int *nw, int *nc) {
         *nc += i;
     }
 }
+
 
 // count how many times each character from [FIRST_CHAR, LAST_CHAR) occurs
 // in the text read from stdin. Sort chars according to their respective
@@ -114,6 +118,7 @@ void digram_count(int digram_no, int digram[]) {
     digram[2] = count[x];
 }
 
+
 // Count block and line comments in the text read from stdin. Set
 // line_comment_counter and block_comment_counter accordingly
 void find_comments(int *line_comment_counter, int *block_comment_counter) {
@@ -148,6 +153,7 @@ int read_line() {
 	sscanf (line, "%d", &n);
 	return n;
 }
+
 
 int main(void) {
 	int to_do;
