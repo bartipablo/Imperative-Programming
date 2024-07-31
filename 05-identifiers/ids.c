@@ -39,6 +39,7 @@ char *keywords[] = {
         "unsigned", "void", "volatile", "while"
 };
 
+
 int find_idents() {
     char temp_string[MAX_LINE];
     int temp_index = 0;
@@ -89,6 +90,7 @@ int find_idents() {
     return result;
 }
 
+
 int is_new_id(const char* id, int index) {
     for (int i = 0; i < result; i++) {
         if (!cmp(tab[i], id)) return FALSE;
@@ -100,11 +102,13 @@ int is_new_id(const char* id, int index) {
     return TRUE;
 }
 
+
 int cmp(const void* first_arg, const void* second_arg) {
     char *a = (char*)first_arg;
     char *b = (char*)second_arg;
     return strcmp(a, b);
 }
+
 
 int main(void) {
     printf("%d\n", find_idents());
