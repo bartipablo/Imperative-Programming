@@ -5,5 +5,5 @@ project(01_vectors C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(01_vectors
-    main.c vec.c vec.h)
+    main.c vec.c)
 

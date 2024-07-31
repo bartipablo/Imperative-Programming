@@ -1,4 +1,4 @@
-#include "minunit.h"
+#include "../minunit.h"
 #include "vec.h"
 
 void assert_double_array(double t1[], double t2[], int size) {
