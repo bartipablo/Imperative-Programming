@@ -1,6 +1,6 @@
 #include <math.h>
 
-#include "E:\biblioteki\c++\minunit\minunit\minunit.h"
+#include "../minunit.h"
 #include "function.h"
 #include "function-pointer.h"
 #include "integral.h"
