@@ -1,17 +1,9 @@
 #include <stdio.h>
 #include <math.h> // for NAN
 
-#define STACK_SIZE 10
-
-#define OK 0
-#define EMPTY -1
-#define FULL -2
-#define OVERFLOW1 -3
+#include "data_structures.h"
 
 //STACK--------------------------------------------
-static double stack[STACK_SIZE];
-static int top = 0;
-
 int stack_push(double x) {
     if (top == STACK_SIZE) {
         return OVERFLOW1;
@@ -21,6 +13,7 @@ int stack_push(double x) {
     return OK;
 }
 
+
 double stack_pop(void) {
     if (top == 0) {
         return NAN;
@@ -29,6 +22,7 @@ double stack_pop(void) {
     return stack[top];
 }
 
+
 int stack_state(void) {
     if (top == STACK_SIZE)
         return FULL;
@@ -36,18 +30,13 @@ int stack_state(void) {
         return top;
 }
 
+
 void reset_stack(void) {
     top = 0;
 }
 //STACK--------------------------------------------
 
 //FIFO queue with shifts---------------------------
-#define QUEUE_SIZE 10
-
-static int queue[QUEUE_SIZE];
-static int in = 0, curr_nr = 0;
-
-
 void queue_push(int in_nr) {
     for (int i = 0; i < in_nr; i++) {
         if (in == QUEUE_SIZE) {
@@ -84,12 +73,6 @@ void queue_state(void) {
 //FIFO queue with shifts---------------------------
 
 //Queue-with-cyclic-buffer-------------------------
-#define CBUFF_SIZE 10
-
-static int cbuff[CBUFF_SIZE];
-static int out = 0, len = 0;
-
-
 void cbuff_push(int cli_nr) {
     if (len == CBUFF_SIZE) {
         printf("OVERFLOW ");
