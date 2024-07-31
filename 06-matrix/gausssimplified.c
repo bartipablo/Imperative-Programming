@@ -1,10 +1,7 @@
 #include <math.h>
 #define SIZE 40
 
-// 5.2
-// Matrix triangulation and determinant calculation - simplified version
-// (no rows' swaps). If A[i][i] == 0, function returns NAN.
-// Function may change A matrix elements.
+
 double gauss_simplified(double A[][SIZE], int n) {
     for (int i = 1; i < n; i++) {
         if (A[i-1][i-1] == 0) {

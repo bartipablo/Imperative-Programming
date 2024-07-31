@@ -12,11 +12,13 @@ void swap(double *a, double *b) {
     *b = temp;
 }
 
+
 void swap_rows(double A[][SIZE], int n, int m, int cols_no) {
     for (int i = 0; i < cols_no; i++) {
         swap(&A[n][i], &A[m][i]);
     }
 }
+
 
 int change_order_of_rows(double A[][SIZE], double b[], const int row_index, const int rows_no, const int cols_no, const double eps) {
     double max_abs_value = 0;
@@ -37,11 +39,13 @@ int change_order_of_rows(double A[][SIZE], double b[], const int row_index, cons
     return OK;
 }
 
+
 void read_vector(double x[], int n) {
     for(int i = 0; i < n; ++i) {
         scanf("%lf", x++);
     }
 }
+
 
 void print_vector(double x[], int n) {
     for(int i = 0; i < n; ++i) {
@@ -49,6 +53,7 @@ void print_vector(double x[], int n) {
     }
     printf("\n");
 }
+
 
 void read_mat(double A[][SIZE], int m, int n) {
     for(int i = 0; i < m; ++i) {
@@ -58,6 +63,7 @@ void read_mat(double A[][SIZE], int m, int n) {
     }
 }
 
+
 void print_mat(double A[][SIZE], int m, int n) {
     for(int i = 0; i < m; ++i) {
         for(int j = 0; j < n; ++j) {
@@ -66,6 +72,7 @@ void print_mat(double A[][SIZE], int m, int n) {
         printf("\n");
     }
 }
+
 
 double determinant(double matrix[SIZE][SIZE], int n) {
     double det = 0;

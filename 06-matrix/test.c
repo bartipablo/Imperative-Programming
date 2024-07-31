@@ -1,4 +1,4 @@
-#include "minunit.h"
+#include "../minunit.h"
 #include "matrixproduct.h"
 #include "gausssimplified.h"
 #include "gauss.h"

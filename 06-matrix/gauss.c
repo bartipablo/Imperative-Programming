@@ -1,12 +1,6 @@
 #define SIZE 40
 #include "generalfunction.h"
 
-// 5.3
-// Matrix triangulation, determinant calculation, and Ax = b solving - extended version
-// (Swap the rows so that the row with the largest, leftmost nonzero entry is on top. While
-// swapping the rows use index vector - do not copy entire rows.)
-// If max A[i][i] < eps, function returns 0.
-// If det != 0 && b != NULL && x != NULL then vector x should contain solution of Ax = b.
 
 void get_solution_to_system_of_linear_equations(double A[][SIZE], double x[], const double b[], const int n) { // the input matrix must be in triangular form
     for (int i = n-1; i >= 0; i--) {

@@ -1,9 +1,7 @@
 #include "generalfunction.h"
 #include <stddef.h>
 
-// 5.4
-// Returns the determinant; B contains the inverse of A (if det(A) != 0)
-// If max A[i][i] < eps, function returns 0.
+
 void set_unit_matrix(double A[][SIZE], int n) {
     for (int i = 0; i < n; i++) {
         for (int j = n; j < 2*n; j++) {
@@ -11,6 +9,7 @@ void set_unit_matrix(double A[][SIZE], int n) {
         }
     }
 }
+
 
 double matrix_inv(double A[][SIZE], double B[][SIZE], int n, double eps) {
     double det = determinant(A, n);
