@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <limits.h>
 #include "perm.h"
 
 #define N 100
@@ -13,7 +12,7 @@ int main(void) {
     int tab[N];
 
     scanf("%d %d",&nr_testu, &seed);
-    srand((unsigned)seed); // ustawienie ziarna generatora (dla powtarzalnosci wynikow)
+    srand((unsigned)seed);
 
     switch(nr_testu) {
         case 1:

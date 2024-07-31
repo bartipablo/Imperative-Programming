@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <limits.h>
 
@@ -13,7 +12,6 @@ void swap(int *a, int *b) {
 }
 
 
-// Draws one integer from the interval [a,b] using the rand() function and the % operator
 int rand_from_interval(int a, int b) {
     if (a > b) {
         return INT_MIN;
@@ -29,7 +27,6 @@ int rand_from_interval(int a, int b) {
 }
 
 
-// A random permutation of the set of numbers {0, 1, 2,..., n-1}
 void rand_permutation(int n, int tab[]) {
     for (int i = 0; i < n; i++) {
         tab[i] = i;
@@ -42,7 +39,6 @@ void rand_permutation(int n, int tab[]) {
 }
 
 
-//bubble-sort, Returns the number of outer loop iterations (counted from 1) after which the array was sorted,
 int bubble_sort(int n, int tab[]) {
     int number_of_iteration = 1;
     for (int i = 0; i < n-1; i++) {

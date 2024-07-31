@@ -1,4 +1,4 @@
-#include "E:\biblioteki\c++\minunit\minunit\minunit.h"
+#include "../minunit.h"
 #include "perm.h"
 
 void assert_int_array(int t1[], int t2[], int size) {
@@ -55,8 +55,6 @@ MU_TEST(bubble_sort_test6) {
     int result = bubble_sort(size, array);
     mu_assert_int_eq(expected_value, result);
 }
-
-
 //bubble sort tests----------------------------------------------------------------------------------------------------
 
 MU_TEST_SUITE(bubble_sort_test_suite) {
